@@ -1,5 +1,7 @@
 # ember-intl-relativeformat
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ember-intl/ember-intl-relativeformat.svg)](https://greenkeeper.io/)
+
 A thin wrapper around [intl-relativeformat](https://github.com/yahoo/intl-relativeformat) that allows for `import IntlRelativeFormat from 'intl-relativeformat';` from within your ember application.
 
 ## Installation
