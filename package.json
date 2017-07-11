@@ -1,6 +1,6 @@
 {
   "name": "ember-intl-relativeformat",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "A small wrapper around intl-relativeformat to support ES6 modules of intl-relativeformat.",
   "directories": {
     "doc": "doc",
