@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ember-intl/ember-intl-relativeformat",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4"
   },
   "author": "jason.mitchell.w@gmail.com",
   "license": "BSD-3-Clause",
