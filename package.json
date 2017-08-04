@@ -1,6 +1,6 @@
 {
   "name": "@ember-intl/relativeformat-shim",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "A small wrapper around intl-relativeformat to support ES6 modules of intl-relativeformat.",
   "keywords": [
     "ember-addon"
