@@ -22,7 +22,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "@ember-intl/messageformat-shim": "^3.2.0",
+    "@ember-intl/messageformat-shim": "^4.0.1",
     "broccoli-merge-trees": "^2.0.0",
     "broccoli-source": "^1.1.0",
     "ember-cli-babel": "^6.7.1",
