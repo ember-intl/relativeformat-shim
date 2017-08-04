@@ -46,7 +46,6 @@ var objCreate = Object.create || function (proto, props) {
 };
 
 var arrIndexOf = Array.prototype.indexOf || function (search, fromIndex) {
-    /*jshint validthis:true */
     var arr = this;
     if (!arr.length) {
         return -1;

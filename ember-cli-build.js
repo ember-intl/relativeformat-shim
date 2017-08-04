@@ -1,12 +1,12 @@
-/*jshint node: true */
+/* eslint-env node */
 /* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-addon');
-var mergeTrees = require('broccoli-merge-trees');
-var Funnel = require('broccoli-funnel');
-var path = require('path');
+const EmberApp = require('ember-cli/lib/broccoli/ember-addon');
+const mergeTrees = require('broccoli-merge-trees');
+const Funnel = require('broccoli-funnel');
+const path = require('path');
 
 module.exports = function(defaults) {
-  var app = new EmberApp(defaults, {
+  let app = new EmberApp(defaults, {
     // Add options here
   });
 
@@ -24,7 +24,7 @@ module.exports = function(defaults) {
     }
   };
 
-  var polyfillTree = new Funnel(treeGenerator(path.join(require.resolve('intl'), '..', 'dist')), {
+  let polyfillTree = new Funnel(treeGenerator(path.join(require.resolve('intl'), '..', 'dist')), {
     files:   ['Intl.complete.js'],
     srcDir:  '/',
     destDir: '/assets/polyfill/'
